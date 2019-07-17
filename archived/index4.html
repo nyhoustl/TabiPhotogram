@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <head>
+        <meta http-equiv='content-type' charset='utf-8'/>
+        <title>test</title>
+        <meta name='description' content='' />
+        <link href='style.css' type='text/css' rel='stylesheet'/>
+  </head>
+
+  <body>
+    <div class='content', id='test'>
+          <article class='1'>
+            <h2>Photo Gallery</h2>
+          </article>
+          <script>
+          function display_tile(list){
+            for (var i = 0; i < list.length; i++) {
+            var y1 = document.createElement('FIGURE');
+            var y2 = document.createElement('IMG');
+            var jpg_name = 'photos/' + list[i] + '_tile.jpg'
+            y2.setAttribute('src', jpg_name);
+            y2.setAttribute('width', '300');
+            y2.setAttribute('height', '300');
+            y2.setAttribute('alt', list[i]);
+            y2.setAttribute('onclick', 'display_tile(list)');
+            y1.appendChild(y2);
+            var Div = document.getElementById('test');
+            Div.appendChild(y1);
+          }
+
+            var Country_list =
+            ['Italy', 'France', 'Spain', 'Cuba','Easter', 'Ireland', 'Croatia',
+            'Mexico', 'New York', 'Norway', 'Czech'];
+
+          </script>
+        </div>
+  </body>
+</html>

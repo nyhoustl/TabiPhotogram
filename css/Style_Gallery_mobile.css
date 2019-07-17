@@ -1,0 +1,364 @@
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #fffdfd;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  background-color: #fffdfd;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  background-color: #ddd8d8;
+  position: fixed;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 10;
+}
+
+nav {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  margin-top: 0%;
+}
+
+nav.menu{
+  padding: 0px
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 5%;
+}
+
+nav li {
+  font-size: 14px;
+  color: #444444;
+  padding: 0px 3px;
+  display: inline-block;
+}
+
+nav li#logo {
+  margin-right:10px;
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #999999;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+nav ul li a:hover {
+  color: #444444;
+}
+
+main {
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    height: 95%;
+    overflow: hidden; /* to make div non-0 ht */
+}
+
+article#page_description  {
+  margin-top: -5px;
+  width: 100%;
+  text-align: center;
+  color: #777777;
+}
+@media screen and (min-width: 600px) {
+  article#page_description {
+    margin-top: -10px;
+  }
+}
+
+article.trip_note  {
+  margin: 40px;
+  width: 90%;
+  text-align: left;
+  color: #222222;
+}
+
+
+div#photo_tile {
+  width: 100%;
+  height: 90%;
+  margin-top: -10px;
+  overflow: hidden;
+}
+
+/* for smart phone, 2 columns for Gallery_list */
+figure.gallery_list1 {
+  float: left;
+  width: 50%;
+  margin: 0px;
+  overflow: hidden;
+}
+
+figure.gallery_list2 {
+  float: left;
+  width: 50%; /* for smart phone 2 columns */
+  margin: 0px; /* small space for other device */
+  overflow: hidden;
+}
+
+/* iPad 3 columns for Gallery_list */
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  figure.gallery_list1 {
+  width: 32.8%;
+  margin: 1px;
+}
+  figure.gallery_list2 {
+  width: 32.8%;
+  margin: 1px;
+}
+}
+
+/* 800 px or larger 4 columns for Gallery_list */
+@media screen and (min-width: 900px) {
+  figure.gallery_list1 {
+  width: 24.7%;
+  margin: 1px;
+}
+  figure.gallery_list2 {
+  width: 24.7%;
+  margin: 1px;
+}
+}
+
+img.gallery_list1 {
+  width: 100%;
+  height: auto;
+}
+
+img.gallery_list2 {
+  width: 100%;
+  height: auto;
+}
+
+/* show figcaption in gallery_list1 */
+figcaption.gallery_list1 {
+  position: relative;
+  margin-top: -30px;
+  width: 100%;
+  display: block;
+  height: 25px;
+  padding: 0px;
+  color: #eee;
+  background: #222222; /* Fallback color */
+  background: rgba(0, 0, 0, .2);
+  font-size: 1.2em;
+  font-style: italic;
+  text-align: center;
+}
+
+/* show figcaption in gallery_list1 */
+figcaption.gallery_list2 {
+  position: relative;
+  margin-top: -30px;
+  width: 100%;
+  display: block;
+  height: 25px;
+  padding: 0px;
+  color: #eee;
+  background: #222222; /* Fallback color */
+  background: rgba(0, 0, 0, .2);
+  font-size: 1.2em;
+  font-style: italic;
+  text-align: center;
+}
+
+div#photo_gallery {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  text-align: center;
+}
+
+/* iPad portrait screen size */
+@media screen and (min-width: 750px) and (max-width: 1024px) and (orientation : portrait)  {
+  div#photo_gallery {
+    width: 98%;
+    height: 900px;
+}}
+
+/* window height increase with media size in landscape */
+@media screen and (max-width: 700px) and (orientation : landscape){
+  div#photo_gallery {
+    width: 98%;
+    height: 350px;
+}}
+
+/* window height increase with media size in landscape */
+@media screen and (min-width: 700px) and (max-width: 800px) and (orientation : landscape)  {
+  div#photo_gallery {
+    width: 98%;
+    height: 400px;
+}}
+
+@media screen and (min-width: 800px) and (max-width: 900px) and (orientation : landscape)  {
+  div#photo_gallery {
+    width: 98%;
+    height: 600px;
+}}
+
+@media screen and (min-width: 900px) and (orientation : landscape)  {
+  div#photo_gallery {
+    width: 98%;
+    height: 700px;
+}}
+
+/* hide image by default */
+figure.slides {
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+img.gallery {
+    object-fit: scale-down;
+}
+
+
+figcaption.gallery {
+    display: none;
+}
+
+
+div#arrows {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 22px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  position: relative;
+  cursor: pointer;
+  top: 50%;
+  width: 8px;
+  height: 35px;
+  margin-top: 300px;
+  color: #bbb;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  user-select: none;
+  padding: 1px;
+}
+
+/* Position the 'next button' to the right */
+a.next {
+}
+a.prev {
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: #717171;
+}
+
+div#photo_gallery_dot {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  height: 3%;
+  clear: left;
+  background-color: #ddd8d8;
+  text-align: right;
+  color: #333333;
+  font-size: 10px;
+  position: fixed;
+  bottom: 3px;
+  z-index: 10;
+}
+
+footer p {
+  margin-right: 5%;
+}
+
+span.dot{
+  text-align:center
+}
+
+div#pseudoblock {
+  height: 30px;
+  width: 100%;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+div.trip_note_header {
+  font-size: 16px;
+  padding-left: 20px;
+  background-color: #f1efef;
+
+}

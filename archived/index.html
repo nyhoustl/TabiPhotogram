@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+  <head>
+        <meta http-equiv="content-type" charset="utf-8"/>
+        <title>test</title>
+        <meta name="description" content="" />
+        <link href="style.css" type='text/css' rel='stylesheet'/>
+  </head>
+
+  <body>
+    <div class="content", id='test'>
+          <article class='1'>
+            <h2>Photo Gallery</h2>
+          </article>
+          <figure>
+            <a href="Italy.html">
+            <img src="photos/Italy_tile.jpg" alt="photo1" width=300px height=300px>
+            </a>
+          </figure>
+          <figure>
+            <a href="France.html">
+            <img src="photos/France_tile.jpg" alt="photo2" width=300px height=300px>
+            </a>
+          </figure>
+          <figure>
+            <a href="Spain.html">
+            <img src="photos/Spain_tile.jpg" alt="photo2" width=300px height=300px>
+            </a>
+          </figure>
+          <figure>
+            <a href="Cuba.html">
+            <img src="photos/Cuba_tile.jpg" alt="photo3" width=300px height=300px>
+            </a>
+          </figure>
+          <figure>
+            <a href="Mexico.html">
+            <img src="photos/Mexico_tile.jpg" alt="photo4" width=300px height=300px>
+            </a>
+          </figure>
+          <figure>
+            <a href="Patagonia.html">
+            <img src="photos/Croatia_tile.jpg" alt="photo4" width=300px height=300px>
+            </a>
+          </figure>
+          <figure>
+            <a href="Easter.html">
+            <img src="photos/Easter_tile.jpg" alt="photo5" width=300px height=300px>
+            </a>
+          </figure>
+          <figure>
+            <a href="Arizona.html">
+            <img src="photos/Arizona_tile.jpg" alt="photo3" width=300px height=300px>
+            </a>
+          </figure>
+          <figure>
+              <a href="Thailand.html">
+              <img src="photos/Thailand_tile.jpg" alt="photo5" width=300px height=300px>
+              </a>
+          </figure>
+          <script>
+          var Country_list = ["Italy", "France", "Cuba"];
+          var html =[];
+          for (var i = 0; i < Country_list.length; i++) {
+          html +=
+              "<figure>"+
+              "No." + (i + 1) + "<br/>" +
+              "name: " + escape(Country_list[i]) + "<br/>" +
+              "score: " + escape(Country_list[i]) + "<br/>" +
+              "</li>"+
+              "</figure>";
+          }
+          document.write(html);
+          document.close();
+          </script>
+
+          <p>dd</p>
+          <script>
+            var Country_list = ["Italy", "France", "Cuba"];
+            for (var i = 0; i < Country_list.length; i++) {
+              var y1 = document.createElement("FIGURE");
+              var y2 = document.createElement("IMG");
+              var jpg_name = "photos/" + Country_list[i] + "_tile.jpg"
+              y2.setAttribute("src", jpg_name);
+              y2.setAttribute("width", "300");
+              y2.setAttribute("height", "300");
+              y2.setAttribute("alt", Country_list[i]);
+              console.log(y2);
+              y1.appendChild(y2);
+              var Div = document.getElementById("test");
+              console.log(Div);
+              Div.appendChild(y2);
+          }
+          </script>
+
+        </div>
+
+        <figure src="photos/Italy_tile.jpg" width="300" height="300" alt="an image"></figure>
+  </body>
+</html>
