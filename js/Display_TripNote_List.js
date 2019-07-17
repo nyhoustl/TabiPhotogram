@@ -17,6 +17,7 @@ for (var i = 0; i < region_list.length; i++) {
    var jpg_name = 'photos/tiles/region/' + region_list[i][1] + '_tile.jpg';
   }
   var href_name = 'TripNote_' + region_list[i][1] + '.html';
+
   fig.setAttribute('class', 'gallery_list2');
   figcaption.setAttribute('class', 'gallery_list2');
   img.setAttribute('class', 'gallery_list2');
