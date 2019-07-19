@@ -284,22 +284,7 @@ div#photo_gallery_dot {
   display: none;
 }
 
-footer {
-  width: 100%;
-  height: 3%;
-  clear: left;
-  background-color: #ddd8d8;
-  text-align: right;
-  color: #333333;
-  font-size: 10px;
-  position: fixed;
-  bottom: 3px;
-  z-index: 10;
-}
 
-footer p {
-  margin-right: 5%;
-}
 
 span.dot{
   text-align:center
@@ -367,14 +352,14 @@ div#pseudoblock {
 article.trip_note p {
   margin-top: 5px;
 }
-div.trip_note_header {
+div.trip_note.header {
   font-size: 18px;
   font-weight: bold;
   padding-left: 5px;
   background-color: #f1efef;
 }
 
-div.trip_note_header2 {
+div.trip_note.header2 {
   font-size: 16px;
   font-weight: bold;
   margin-top: 8px;
@@ -385,4 +370,52 @@ table.trip_note {
 }
 th, td {
   padding-left: 30px;
+}
+
+img.trip_note {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+img.trip_note.left {
+  float:left;
+  margin-right: 20px;
+}
+
+img.trip_note.right {
+    float:right;
+    margin-left: 20px;
+}
+
+/* non-smart phone */
+@media screen and (min-width: 600px) {
+  img.trip_note {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  img.trip_note.portrait {
+    width: 300px;
+    height: 400px;
+  }
+  img.trip_note.landscape {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 3%;
+  clear: left;
+  background-color: #ddd8d8;
+  text-align: right;
+  color: #333333;
+  font-size: 10px;
+  position: fixed;
+  bottom: 3px;
+  z-index: 10;
+}
+
+footer p {
+  margin-right: 5%;
 }

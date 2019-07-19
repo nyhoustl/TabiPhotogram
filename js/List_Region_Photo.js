@@ -49,8 +49,10 @@ region_photo_dict = {
   // Italy
   'Florence and Siena': ['Florence-1', 'Florence-2', 'Siena-1', 'Siena-2',
             'San Gimignano-1', 'San Gimignano-2', 'San Gimignano-3'],
-  "Val d'Orcha": ["Val d'Orcha-1", "Val d'Orcha-2", "Val d'Orcha-3",
+  "Val d'Orcha 1": ["Val d'Orcha-1", "Val d'Orcha-2", "Val d'Orcha-3",
                   "Val d'Orcha-4", "Val d'Orcha-5", "Val d'Orcha-6"],
+  "Val d'Orcha 2": ["Val d'Orcha-7", "Val d'Orcha-8", "Val d'Orcha-9",
+              "Val d'Orcha-10", "Val d'Orcha-11", "Val d'Orcha-12", "Val d'Orcha-13"],
   'Maremma': ['Sorano-1', 'Sorano-2', 'Sovana-1', 'Sovana-2',
               'Pitigliano-1', 'Pitigliano-2',
               'Montemerano-1', 'Montemerano-2', 'Montemerano-3','Montemerano-4'],
