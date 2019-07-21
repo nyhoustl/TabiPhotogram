@@ -4,19 +4,20 @@ var div = document.getElementById('photo_gallery')
 for (var i = 0; i < photo_list.length; i++) {
   var fig = document.createElement('FIGURE')
   var img = document.createElement('IMG')
-  var jpg_name = 'photos/galleries/' + photo_list[i] + '.jpg'
+  var jpg_name = 'photos/galleries/' + photo_list[i][0] + '.jpg'
   var figcaption = document.createElement('FIGCAPTION')
   img.setAttribute('src', jpg_name)
   img.setAttribute('width', '100%')
   img.setAttribute('height', '100%')
-  img.setAttribute('alt', photo_list[i])
+  img.setAttribute('alt', photo_list[i][0])
   img.setAttribute('class', 'gallery')
   fig.setAttribute('class', 'slides fade')
-  figcaption.textContent = photo_list[i]
+  figcaption.textContent = photo_list[i][1]
   figcaption.setAttribute('class', 'gallery')
-  fig.appendChild(img)
   fig.appendChild(figcaption)
+  fig.appendChild(img)
   div.appendChild(fig)
+  console.log(figcaption)
 }
 
 // create HTML for dots

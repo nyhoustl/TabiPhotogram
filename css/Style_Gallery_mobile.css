@@ -154,24 +154,8 @@ img.gallery_list2 {
   height: auto;
 }
 
-/* show figcaption in gallery_list1 */
-figcaption.gallery_list1 {
-  position: relative;
-  margin-top: -30px;
-  width: 100%;
-  display: block;
-  height: 25px;
-  padding: 0px;
-  color: #eee;
-  background: #222222; /* Fallback color */
-  background: rgba(0, 0, 0, .2);
-  font-size: 1.2em;
-  font-style: italic;
-  text-align: center;
-}
-
-/* show figcaption in gallery_list1 */
-figcaption.gallery_list2 {
+/* show figcaption in gallery_list */
+figcaption.gallery_list1, figcaption.gallery_list2 {
   position: relative;
   margin-top: -30px;
   width: 100%;
@@ -191,60 +175,89 @@ div#photo_gallery {
   height: auto;
   margin: 0px;
   text-align: center;
+  overflow: visible;
+}
+
+figure.slides {
+  height: auto;
 }
 
 /* iPad portrait screen size */
 @media screen and (min-width: 750px) and (max-width: 1024px) and (orientation : portrait)  {
   div#photo_gallery {
     width: 98%;
-    height: 900px;
-}}
+    height: 900px;  /* height difference for figcapation*/
+  }
+  figure.slides {
+    height: 870px;
+  }
+}
 
 /* window height increase with media size in landscape */
 @media screen and (max-width: 700px) and (orientation : landscape){
   div#photo_gallery {
     width: 98%;
+    height: 380px;
+  }
+  figure.slides {
     height: 350px;
-}}
+  }
+}
 
 /* window height increase with media size in landscape */
 @media screen and (min-width: 700px) and (max-width: 800px) and (orientation : landscape)  {
   div#photo_gallery {
     width: 98%;
+    height: 430px;
+  }
+  figure.slides {
     height: 400px;
-}}
+  }
+}
 
 @media screen and (min-width: 800px) and (max-width: 900px) and (orientation : landscape)  {
   div#photo_gallery {
     width: 98%;
+    height: 630px;
+  }
+  figure.slides {
     height: 600px;
-}}
+  }
+}
 
 @media screen and (min-width: 900px) and (orientation : landscape)  {
   div#photo_gallery {
     width: 98%;
-    height: 700px;
-}}
+    height: 680px;
+  }
+  figure.slides {
+    height: 650px;
+  }
+}
 
 /* hide image by default */
 figure.slides {
   display: none;
   width: 100%;
-  height: 100%;
   margin: 0px;
   text-align: center;
-  overflow: hidden;
 }
 
 img.gallery {
     object-fit: scale-down;
 }
 
-
 figcaption.gallery {
-    display: none;
+  position: relative;
+  width: 100%;
+  display: block;
+  height: 30px;
+  padding: 0px;
+  color: #555555;
+  font-size: 1.2em;
+  font-style: italic;
+  text-align: center;
 }
-
 
 div#arrows {
   width: 100%;
@@ -283,8 +296,6 @@ a.prev {
 div#photo_gallery_dot {
   display: none;
 }
-
-
 
 span.dot{
   text-align:center
