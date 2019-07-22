@@ -225,13 +225,23 @@ figure.slides {
   }
 }
 
-@media screen and (min-width: 900px) and (orientation : landscape)  {
+@media screen and (min-width: 900px) and (max-width: 1000px) and (orientation : landscape)  {
   div#photo_gallery {
     width: 98%;
     height: 680px;
   }
   figure.slides {
     height: 650px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (orientation : landscape)  {
+  div#photo_gallery {
+    width: 980px;
+    height: 730px;
+  }
+  figure.slides {
+    height: 700px;
   }
 }
 
