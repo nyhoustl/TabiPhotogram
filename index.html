@@ -4,48 +4,47 @@
       <title>TabiPhotogram</title>
       <meta name="viewport" content="width=device-width,initial-scale=1.0">
       <link href='css/Style_Gallery_mobile.css' type='text/css' rel='stylesheet'/>
-      <!--
-      <link rel="stylesheet" media="screen and (min-width: 800px)" href="Style_Gallery_mobile.css">
-      -->
 </head>
 
 <body>
   <header>
     <nav class='menu'>
       <ul>
-        <li id='logo'>TabiPhotogram</li>
-        <li><a href='index.html'>Photo Galleary</a></li>
+        <li id='logo'><a href='index.html'>TabiPhotogram</a></li>
+        <li><a href='Gallery_List1.html'>Photo Galleary</a></li>
         <li><a href='TripNote_List.html'>Trip Note</a></li>
-        <li><a href='About Us'>About</a></li>
-        <li><a href='#'>Contact</a></li>
+        <li><a href='About Us.html'>About Us</a></li>
       </ul>
     </nav>
   </header>
 
-  <script>
-  var region_list =
-  ['Cuba', 'Easter Island', 'Patagonia',
-  'Mexico', 'USA', 'Italy', 'France', 'Spain',
-  'UK and Ireland', 'Other Countries'];
-  </script>
+    <div id='photo_gallery_index'></div>
 
-  <main>
-    <article id='page_description'>
-      <h3>Welcome to our Photo Gallery</h3>
-    </article>
-
-    <div id='photo_tile'>
-      <script src='js/Display_Gallery_List.js'>
-      </script>
+    <div id='arrows_gallery_index'>
+      <a class='prev' onclick='plusSlides(-1)'>&#10094;&nbsp;</a>
+      <a class='next' onclick='plusSlides(1)'>&nbsp;&#10095;</a>
     </div>
 
-    <!--create block between images and footer -->
-    <div id='pseudoblock'>
+    <div id='photo_tile' style='width: 50%; height: 300px;
+          margin-left: 25%; margin-right:25%;'>
+      <figure class='gallery_list_index'>
+        <a href="Gallery_List1.html">
+          <img class='gallery_list' src='photo/tile/region/Ireland_tile.jpg'>
+        <a/>
+        <figcaption class='gallery_list'>Photo Gallery</figcaption>
+      </figure>
+      <figure class='gallery_list_index'>
+        <a href='TripNote_List.html'>
+          <img class='gallery_list' src='photo/tile/region/Easter Island 2_tile.jpg'>
+        <a/>
+        <figcaption class='gallery_list'>Trip Note</figcaption>
+      </figure>
     </div>
 
-  </main>
+    <script src='js/Display_Gallery_Index.js'></script>
 
-  <footer>
+
+  <footer class='gallery'>
     <p>Copyright(C)  2019  TabiPhotogram all rights reserved.</p>
   </footer>
 </body>

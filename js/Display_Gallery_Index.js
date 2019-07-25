@@ -1,20 +1,18 @@
-var div = document.getElementById('photo_gallery')
+var div = document.getElementById('photo_gallery_index')
+photo_list = ['Hawaii-1', 'Andalucia-1','Easter Island-8',
+            'El Chalten-8', 'Perito Moreno Glacier-5']
 
 // create HTML for figures
 for (var i = 0; i < photo_list.length; i++) {
   var fig = document.createElement('FIGURE')
   var img = document.createElement('IMG')
-  var jpg_name = 'photo/galleries/' + photo_list[i][0] + '.jpg'
-  var figcaption = document.createElement('FIGCAPTION')
+  var jpg_name = 'photo/index/' + photo_list[i] + '.jpg'
   img.setAttribute('src', jpg_name)
   img.setAttribute('width', '100%')
   img.setAttribute('height', '100%')
-  img.setAttribute('alt', photo_list[i][0])
-  img.setAttribute('class', 'gallery')
-  fig.setAttribute('class', 'slides fade')
-  figcaption.textContent = photo_list[i][1]
-  figcaption.setAttribute('class', 'gallery')
-  fig.appendChild(figcaption)
+  img.setAttribute('alt', photo_list[i])
+  img.setAttribute('class', 'gallery_index')
+  fig.setAttribute('class', 'gallery_index slides fade')
   fig.appendChild(img)
   div.appendChild(fig)
 }
