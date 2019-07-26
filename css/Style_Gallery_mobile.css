@@ -429,7 +429,7 @@ form {
   width:60%;
   float: left;
 }
-input[type="text"],input[type="email"] {
+input[type="text"], input[type="email"] {
   border: solid 1px #aaa;
   border-radius:5px;
   padding:10px;
