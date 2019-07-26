@@ -22,15 +22,47 @@
     <article id='page_description'>
       <h3>プロフィール</h3>
     </article>
-    <div>アメリカ在住の旅行好きの夫婦。
+    <article class='profile'>
+    <p>
+      アメリカ在住の旅行好きの夫婦。
       年に２−３回ほど旅行を楽しんでいます。
-      アメリカ大陸とヨーロッパの旅行がほとんどです。
-      行き先を選ぶ基準は食べ物が美味しいところ。
-    </div>
-    <div>
+    </p>
+    <p>
+      行き先を選ぶ基準はphotogenicな所・食事やワインが美味しいところ。
+      旅行先はアメリカ大陸とヨーロッパがほとんど。
+    </p>
+    <ul class='trip_note itinerary'>
+      <li>趣味：写真撮影、ロードバイク観戦</li>
+      <li>カメラ：ニコンD750, D300s, F100, F80</li>
+      <li>主な使用レンズ：35mm F1.8, 20mm F1.8, 70-200mm F4, 90mm F2.8 macro</li>
+    </ul>
+    </article>
+
+    <article id='page_description'>
+      <h4>コメントはこちらから</h4>
+    <form name="contact" method="POST" data-netlify="true">
+      <div class="item">
+        <label class="label">お名前</label>
+        <input class="inputs" type="text" name="name">
+      </div>
+      <div class="item">
+        <label class="label">メールアドレス</label>
+        <input class="inputs" type="email" name="email">
+      </div>
+      <div class="item">
+        <label class="label">コメント</label>
+        <textarea class="inputs"></textarea>
+      </div>
+      <div class="btn-area">
+        <input type="submit" value="送信"><input type="reset" value="リセット">
+      </div>
+    </form>
+    </article>
+    </br>
+    <div class='ssn_link'>
       <a href="https://twitter.com/nyhoustl?ref_src=twsrc%5Etfw"
       class="twitter-follow-button" data-lang="en" data-dnt="true"
-      data-show-count="false">Follow @TwitterDev
+      data-show-count="false" class='twitter_btn'>Follow @TwitterDev
       </a>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       <a href="https://www.instagram.com/nyhoustl?ref=badge" class="insta_btn">
