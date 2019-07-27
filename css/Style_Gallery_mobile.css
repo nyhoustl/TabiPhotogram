@@ -120,12 +120,20 @@ div#photo_tile_index{
   margin-left: 10%;
   margin-right: 10%;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 899px) {
   div#photo_tile_index {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
   }
+}
+
+@media screen and (min-width: 900px){
+  div#photo_tile_index {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
 }
 
 /* for smart phone, 2 columns for Gallery_list */
@@ -188,6 +196,10 @@ div#photo_gallery {
   overflow: visible;
 }
 
+div#photo_gallery_index {
+  margin-top: 35px;
+}
+
 figure.slides, figure.gallery_index.slides {
   height: auto;
 }
@@ -212,6 +224,7 @@ figure.slides, figure.gallery_index.slides {
   figure.slides {
     height: 350px;
   }
+}
 }
 
 /* window height increase with media size in landscape */
@@ -243,10 +256,6 @@ figure.slides, figure.gallery_index.slides {
   figure.slides {
     height: 650px;
   }
-}
-
-div#photo_gallery_index {
-  margin-top: 35px;
 }
 
 /* hide image by default */
@@ -407,9 +416,21 @@ footer p {
   margin-right: 5%;
 }
 
+article.about_us {
+  width: 320px;
+  margin: 0 auto;
+}
 form {
-  width:460px;
+  width:320px;
   margin:0 auto;
+}
+@media screen and (min-width: 600px) {
+  form {
+    width:450px;
+  }
+  article.about_us {
+    width: 550px;
+}
 }
 .item {
   overflow: hidden;
@@ -419,16 +440,27 @@ form {
 .label {
   margin-right: 20px;
   margin-top: 5px;
-  width:25%;
+  width:50%;
   border-left: solid 3px #ddd8d8;
   padding-left: 5px;
   float: left;
   text-align: left;
 }
 .inputs {
-  width:60%;
+  width:90%;
   float: left;
 }
+
+@media screen and (min-width: 600px) {
+.label {
+  width: 25%;
+}
+.inputs {
+  width:　60%;
+  float: left;
+}
+}
+
 input[type="text"], input[type="email"] {
   border: solid 1px #aaa;
   border-radius:5px;
@@ -449,26 +481,28 @@ input[type="submit"] {
   background: #ddd8d8;
   border: none;
   color: #666666;
-  font-size:15px;
-  padding: 10px 20px;
+  font-size:14px;
+  padding: 8px 16px;
   margin: 0 5px;
 }
 input[type="reset"] {
   background: #ddd8d8;
   border: none;
   color: #666666;
-  font-size:15px;
-  padding: 10px 20px;
+  font-size:14px;
+  padding: 8px 16px;
   margin: 0 5px;
 }
-div.ssn_link {
+div.ss_link {
   width: 98%;
   position: fixed;
   bottom: 30px;
   z-index: 10;
   text-align: right;
 }
-
+div.ssn_link {text-align: center;
+  margin-bottom: 10px;
+}
 .insta_btn {/*ボタンの下地*/
   color: #FFF;/*文字・アイコン色*/
   border-radius: 3px;/*角丸に*/
