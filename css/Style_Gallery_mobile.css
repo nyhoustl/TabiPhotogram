@@ -82,6 +82,15 @@ article#page_description  {
   text-align: center;
   color: #444400;
 }
+
+article#page_description.trip_note {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 600px) {
   article#page_description {
     margin-top: -10px;
@@ -97,12 +106,12 @@ article.trip_note, article.profile  {
 
 @media screen and (min-width: 600px) and (max-width: 899px) {
   article.trip_note {
-    margin: 20px;
+    margin: 0px 20px;
 }
 }
 @media screen and (min-width: 900px){
   article.trip_note {
-    margin: 40px;
+    margin: 0px 40px;
 }
 }
 
@@ -347,8 +356,8 @@ div.trip_note.header {
   font-size: 18px;
   font-weight: bold;
   padding-left: 10px;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   clear: both;
   background-color: #f1efef;
 }
