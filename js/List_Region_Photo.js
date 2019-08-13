@@ -1,7 +1,7 @@
 region_photo_dict = {
 // Cuba
 'Havana': [
-  ['Havana-1', 'A women Selling Coffee in Old Havana'],
+  ['Havana-1', 'A Women Selling Coffee in Old Havana'],
   ['Havana-2', 'Plaza de la Revolution'],
   ['Havana-3', 'The Malecon'],
   ['Havana-4', 'A Local Store in Old Havana'],
@@ -23,9 +23,9 @@ region_photo_dict = {
   ['Easter Island-1', 'Rano Kau'],
   ['Easter Island-2', 'Fallen Moais'],
   ['Easter Island-3','Fallen Moais'],
-  ['Easter Island-4', 'Ahu Nau Nau and Ocean'],
-  ['Easter Island-5', 'Ahu Nau Nau and pine trees'],
-  ['Easter Island-6', 'Ahu Te Pito Kura, the tallest Moai']],
+  ['Easter Island-4', 'Ahu Nau Nau and the Pacific Ocean'],
+  ['Easter Island-5', 'Ahu Nau Nau and Pine Trees'],
+  ['Easter Island-6', 'Ahu Te Pito Kura, the Tallest Moai']],
 'Easter Island 2': [
   ['Easter Island-7', 'Ahu Te Pito Kura'],
   ['Easter Island-8', 'Ahu Tongariki at Sunrise'],
