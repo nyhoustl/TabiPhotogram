@@ -4,7 +4,8 @@ country_region_dict = {
   'Patagonia':['Perito Moreno Glacier', 'El Chalten'],
   'Mexico': ['San Miguel de Allende', 'Puerto Vallarta'],
   'USA': ['Arizona', 'California', 'Oregon and Washington',
-          'Minnesota', 'New York', 'Hawaii'],
+          'Minnesota', 'Hawaii'],
+          //'New York'
   'France': ['Paris', 'Alsace', 'Bordeaux', 'Aveyron',
             'Normandie', 'Provence', 'Rhone', 'Basque'],
   'Italy': ['Florence and Siena', "Val d'Orcha 1", "Val d'Orcha 2",'Maremma',

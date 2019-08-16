@@ -42,7 +42,7 @@ region_photo_dict = {
   ['Perito Moreno Glacier-5', 'Glacier']],
 'El Chalten': [
   ['El Chalten-1', 'Fitz Roy and Cerro Torre'],
-  ['El Chalten-2', 'Fitz Roy and hidden falls'],
+  ['El Chalten-2', 'Fitz Roy and Hidden Falls'],
   ['El Chalten-3', 'Fitz Roy at Sunrise'],
   ['El Chalten-4', 'Fitz Roy Reflection'],
   ['El Chalten-5', 'Fitz Roy and Laguna de los Tres'],
@@ -55,7 +55,7 @@ region_photo_dict = {
   ['San Miguel-2', 'Two Walkers'],
   ['San Miguel-3', 'Parroquia de San Miguel Arcángel at Sunset'],
   ['San Miguel-4', 'Ballons'],
-  ['Guanajuato-1', 'Gas Station in Guanajuato'],
+  ['Guanajuato-1', 'A Gas Station in Guanajuato'],
   ['Guanajuato-2', 'Ninos en Guanajuato'],
   ['Guanajuato-3', 'Guanajuato at Sunset']],
 'Puerto Vallarta': [
@@ -88,16 +88,16 @@ region_photo_dict = {
 'Oregon and Washington': [
   ['Oregon-1', 'Willamette Valley'],
   ['Oregon-2', 'Columbia River Gorge'],
-  ['Washington-1', "Seattle, Sturbuck's Coffee"]],
+  ['Washington-1', "Seattle, the Original Sturbuck's Coffee"]],
 'Minnesota': [
-  ['Minnesota-1', 'Fall colors'],
-  ['Minnesota-2', 'Fall colors'],
+  ['Minnesota-1', 'Fall Colors'],
+  ['Minnesota-2', 'Fall Colors'],
   ['Minnesota-3', 'Frozen Minehaha Falls'],
   ['Minnesota-4', 'April Snow'],
   ['Minnesota-5', 'Canoes'],
-  ['Minnesota-6', 'Brocken spectre on Lake Superior'],
+  ['Minnesota-6', 'Brocken Spectre on Lake Superior'],
   ['Minnesota-7', 'Lake Superior'],
-  ['Minnesota-8', 'Fall colors']],
+  ['Minnesota-8', 'Fall Colors']],
 //'New York': [],
 'Hawaii': [
   ['Hawaii-1', 'Lanikai Beach, Oahu'],
