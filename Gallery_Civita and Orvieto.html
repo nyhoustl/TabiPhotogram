@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+      <meta http-equiv='content-type' charset='utf-8'/>
+      <title>TabiPhotogram: フォトギャラリー</title>
+      <meta name='description' content='
+      アメリカ在住の旅行好きの夫婦。
+      アメリカ大陸とヨーロッパなどの旅行記とフォトギャラリー。
+      レンタカーや交通機関を使っての自由旅行。　
+      最近行った所はイースター島、パタゴニア、キューバ、トスカーナ地方、バスク地方など
+      '/>
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <link href='css/Style_Gallery_mobile.css' type='text/css' rel='stylesheet'/>
+</head>
+
+<body>
+  <header>
+    <nav class='menu'>
+      <ul>
+        <li id='logo'><a href='index.html'>TabiPhotogram</a></li>
+        <li><a href='Gallery_list1.html'>Photo Galleary</a></li>
+        <li><a href='TripNote_List.html'>Trip Note</a></li>
+        <li><a href='About Us.html'>About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article id='page_description'><h3>Photo Gallery of Civita and Orvieto, Italy</h3></article>
+
+    <div id='photo_gallery'></div>
+
+    <div id='arrows'>
+      <a class='prev' onclick='plusSlides(-1)'>&#10094;&nbsp;</a>
+      <a class='next' onclick='plusSlides(1)'>&nbsp;&#10095;</a>
+    </div>
+
+    <script>
+    photo_list = [
+          ['Civita-1', 'Civita'],
+          ['Civita-2', 'Civita at Sunset'],
+          ['Civita-3', 'Civita at Sunrise'],
+          ['Civita-4', 'Civita at Sunrise'],
+          ['Civita-5', 'Civita'],
+          ['Civita-6', 'Infiorata, Lubriano'],
+          ['Civita-7', 'Infiorata, Lubriano'],
+          ['Orvieto-1', 'Orvieto'],
+          ['Orvieto-2', 'Orvieto'],
+          ['Orvieto-3', 'Orvieto'],
+          ['Orvieto-4', 'Orvieto'],
+          ['Orvieto-5', 'Orvieto at Sunset']]
+      </script>
+    <script src='js/Display_Gallery.js'></script>
+  </main>
+
+  <footer class='gallery'>
+    <p>Copyright(C)  2019  TabiPhotogram all rights reserved.</p>
+  </footer>
+</body>
+</html>

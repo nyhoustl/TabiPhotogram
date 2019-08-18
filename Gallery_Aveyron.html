@@ -24,9 +24,8 @@
     </nav>
   </header>
 
-  <!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
   <main>
-    <article id='page_description'></article>
+    <article id='page_description'><h3>Photo Gallery of Aveyron, France</h3></article>
 
     <div id='photo_gallery'></div>
 
@@ -35,7 +34,16 @@
       <a class='next' onclick='plusSlides(1)'>&nbsp;&#10095;</a>
     </div>
 
-    <script src='js/List_Region_Photo.js'></script>
+    <script>
+    photo_list = [
+        ['Aveyron-1', 'Congues'],
+        ['Aveyron-2', 'Congues'],
+        ['Aveyron-3', 'Congues'],
+        ['Aveyron-4', 'Congues'],
+        ['Aveyron-5', 'Estaing'],
+        ['Aveyron-6', 'Estaing'],
+        ['Aveyron-7', 'Estaing']]
+      </script>
     <script src='js/Display_Gallery.js'></script>
   </main>
 

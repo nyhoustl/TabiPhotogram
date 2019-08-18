@@ -16,7 +16,7 @@ for (var i = 0; i < region_list.length; i++) {
     }
   else {
     var jpg_name = 'photo/tile/region/' + region_list[i] + '_tile.jpg';
-    var href_name = 'Gallery.html#' + region_list[i];
+    var href_name = 'Gallery_' + region_list[i] + '.html';
   }
 
   fig.setAttribute('class', 'gallery_list');

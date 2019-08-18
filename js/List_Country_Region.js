@@ -21,7 +21,7 @@ var urlHash = location.hash.slice(1) // obtain keyword from url hash
 urlHash = urlHash.replace('%20', ' ')
 urlHash = urlHash.replace('%20', ' ')
 urlHash = urlHash.replace('%20', ' ')
-urlHash = urlHash.replace('%20', ' ')  // remove %20 for space
+urlHash = urlHash.replace('%20', ' ')  // replace %20 for space
 region_list = country_region_dict[urlHash]
 
 // create HTML for <div id=page_description>
