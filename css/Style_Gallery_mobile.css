@@ -404,6 +404,10 @@ img.trip_note.right {
     width: 400px;
     height: 300px;
   }
+  img.trip_note.square {
+    width: 350px;
+    height: 350px;
+  }
 }
 
 ul.trip_note.itinerary {

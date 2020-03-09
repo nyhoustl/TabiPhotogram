@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146763114-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-146763114-1');
+  </script>
+  <meta http-equiv='content-type' charset='utf-8'/>
+      <title>TabiPhotogram: モロッコ、マラケシュのフォトギャラリー</title>
+      <meta name='description' content='
+      クロアチアのフォトギャラリー
+      ドブロブニク
+      '/>
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <link href='css/Style_Gallery_mobile.css' type='text/css' rel='stylesheet'/>
+</head>
+
+<body>
+  <header>
+    <nav class='menu'>
+      <ul>
+        <li id='logo'><a href='index.html'>TabiPhotogram</a></li>
+        <li><a href='Gallery_list1.html'>Photo Galleary</a></li>
+        <li><a href='TripNote_List.html'>Trip Note</a></li>
+        <li><a href='About Us.html'>About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article id='page_description'><h3>Photo Gallery of Marrakech, Morocco</h3></article>
+
+    <div id='photo_gallery'></div>
+
+    <div id='arrows'>
+      <a class='prev' onclick='plusSlides(-1)'>&#10094;&nbsp;</a>
+      <a class='next' onclick='plusSlides(1)'>&nbsp;&#10095;</a>
+    </div>
+
+    <script>
+    photo_list = [
+        ['Marrakech-1', 'Jemaa el Fnaa Square'],
+        ['Marrakech-2', 'A Woman in Souk'],
+        ['Marrakech-3', 'A Man on a Donkey'],
+        ['Marrakech-4', 'Jemaa el Fnaa Square'],
+        ['Marrakech-5', 'Souk'],
+        ['Marrakech-6', 'Souk'],
+        ['Marrakech-7', 'Babouche']]
+      </script>
+    <script src='js/Display_Gallery.js'></script>
+  </main>
+
+  <footer class='gallery'>
+    <p>Copyright(C)  2020  TabiPhotogram all rights reserved.</p>
+  </footer>
+</body>
+</html>
