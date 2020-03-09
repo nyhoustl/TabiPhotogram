@@ -15,15 +15,18 @@ https://nyhoustl.netlify.com/Gallery_Czech
 https://nyhoustl.netlify.com/Gallery_Easter Island 1
 https://nyhoustl.netlify.com/Gallery_Easter Island 2
 https://nyhoustl.netlify.com/Gallery_El Chalten
+https://nyhoustl.netlify.com/Gallery_Fes
 https://nyhoustl.netlify.com/Gallery_Florence and Siena
 https://nyhoustl.netlify.com/Gallery_Greece
 https://nyhoustl.netlify.com/Gallery_Havana
 https://nyhoustl.netlify.com/Gallery_Hawaii
 https://nyhoustl.netlify.com/Gallery_Ireland
 https://nyhoustl.netlify.com/Gallery_Maremma
+https://nyhoustl.netlify.com/Gallery_Marrakech
 https://nyhoustl.netlify.com/Gallery_Minnesota
 https://nyhoustl.netlify.com/Gallery_Montenegro
 https://nyhoustl.netlify.com/Gallery_Normandie
+https://nyhoustl.netlify.com/Gallery_Morocco Other
 https://nyhoustl.netlify.com/Gallery_Norway
 https://nyhoustl.netlify.com/Gallery_Oregon and Washington
 https://nyhoustl.netlify.com/Gallery_Perito Moreno Glacier
@@ -45,3 +48,4 @@ https://nyhoustl.netlify.com/TripNote_Patagonia
 https://nyhoustl.netlify.com/TripNote_Tuscany Val d'Orcha
 https://nyhoustl.netlify.com/TripNote_Tuscany Maremma
 https://nyhoustl.netlify.com/TripNote_Civita and Orvieto
+https://nyhoustl.netlify.com/TripNote_Morocco
