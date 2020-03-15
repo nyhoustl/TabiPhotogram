@@ -42,10 +42,11 @@ https://nyhoustl.netlify.com/Gallery_Trinidad
 https://nyhoustl.netlify.com/Gallery_Val d'Orcha 1
 https://nyhoustl.netlify.com/Gallery_Val d'Orcha 2
 https://nyhoustl.netlify.com/TripNote_List
+https://nyhoustl.netlify.com/TripNote_Civita and Orvieto
 https://nyhoustl.netlify.com/TripNote_Cuba
 https://nyhoustl.netlify.com/TripNote_Easter Island
+https://nyhoustl.netlify.com/TripNote_Morocco
 https://nyhoustl.netlify.com/TripNote_Patagonia
 https://nyhoustl.netlify.com/TripNote_Tuscany Val d'Orcha
 https://nyhoustl.netlify.com/TripNote_Tuscany Maremma
-https://nyhoustl.netlify.com/TripNote_Civita and Orvieto
-https://nyhoustl.netlify.com/TripNote_Morocco
+https://nyhoustl.netlify.com/About Us.html

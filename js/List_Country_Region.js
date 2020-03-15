@@ -5,8 +5,7 @@ country_region_dict = {
   'Easter Island': ['Easter Island 1', 'Easter Island 2'],
   'Patagonia':['Perito Moreno Glacier', 'El Chalten'],
   'Mexico': ['San Miguel de Allende', 'Puerto Vallarta'],
-  'USA': ['Arizona', 'California', 'Oregon and Washington', 'Minnesota', 'Hawaii'],
-  //'New York'
+  'USA': ['Arizona', 'California', 'Oregon and Washington', 'Minnesota', 'Hawaii', 'New York'],
   'France': ['Alsace', 'Bordeaux', 'Aveyron', 'Normandie', 'Provence', 'Rhone', 'Basque'],
   //'Paris'
   'Italy': ['Florence and Siena', "Val d'Orcha 1", "Val d'Orcha 2",'Maremma', 'Civita and Orvieto', 'Rome'],
