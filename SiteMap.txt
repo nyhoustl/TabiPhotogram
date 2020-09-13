@@ -1,52 +1,52 @@
-https://nyhoustl.netlify.com/
-https://nyhoustl.netlify.com/gallery_list1
-https://nyhoustl.netlify.com/Gallery_Alsace
-https://nyhoustl.netlify.com/Gallery_Andalucia
-https://nyhoustl.netlify.com/Gallery_Arizona
-https://nyhoustl.netlify.com/Gallery_Aveyron
-https://nyhoustl.netlify.com/Gallery_Barcelona
-https://nyhoustl.netlify.com/Gallery_Basque
-https://nyhoustl.netlify.com/Gallery_Bordeaux
-https://nyhoustl.netlify.com/Gallery_California
-https://nyhoustl.netlify.com/Gallery_Civita and Orvieto
-https://nyhoustl.netlify.com/Gallery_Croatia 1
-https://nyhoustl.netlify.com/Gallery_Croatia 2
-https://nyhoustl.netlify.com/Gallery_Czech
-https://nyhoustl.netlify.com/Gallery_Easter Island 1
-https://nyhoustl.netlify.com/Gallery_Easter Island 2
-https://nyhoustl.netlify.com/Gallery_El Chalten
-https://nyhoustl.netlify.com/Gallery_Fes
-https://nyhoustl.netlify.com/Gallery_Florence and Siena
-https://nyhoustl.netlify.com/Gallery_Greece
-https://nyhoustl.netlify.com/Gallery_Havana
-https://nyhoustl.netlify.com/Gallery_Hawaii
-https://nyhoustl.netlify.com/Gallery_Ireland
-https://nyhoustl.netlify.com/Gallery_Maremma
-https://nyhoustl.netlify.com/Gallery_Marrakech
-https://nyhoustl.netlify.com/Gallery_Minnesota
-https://nyhoustl.netlify.com/Gallery_Montenegro
-https://nyhoustl.netlify.com/Gallery_Normandie
-https://nyhoustl.netlify.com/Gallery_Morocco Other
-https://nyhoustl.netlify.com/Gallery_Norway
-https://nyhoustl.netlify.com/Gallery_Oregon and Washington
-https://nyhoustl.netlify.com/Gallery_Perito Moreno Glacier
-https://nyhoustl.netlify.com/Gallery_Portugal
-https://nyhoustl.netlify.com/Gallery_Provence
-https://nyhoustl.netlify.com/Gallery_Puerto Vallarta
-https://nyhoustl.netlify.com/Gallery_Rhone
-https://nyhoustl.netlify.com/Gallery_Rome
-https://nyhoustl.netlify.com/Gallery_San Miguel de Allende
-https://nyhoustl.netlify.com/Gallery_Scotland
-https://nyhoustl.netlify.com/Gallery_Thailand
-https://nyhoustl.netlify.com/Gallery_Trinidad
-https://nyhoustl.netlify.com/Gallery_Val d'Orcha 1
-https://nyhoustl.netlify.com/Gallery_Val d'Orcha 2
-https://nyhoustl.netlify.com/TripNote_List
-https://nyhoustl.netlify.com/TripNote_Civita and Orvieto
-https://nyhoustl.netlify.com/TripNote_Cuba
-https://nyhoustl.netlify.com/TripNote_Easter Island
-https://nyhoustl.netlify.com/TripNote_Morocco
-https://nyhoustl.netlify.com/TripNote_Patagonia
-https://nyhoustl.netlify.com/TripNote_Tuscany Val d'Orcha
-https://nyhoustl.netlify.com/TripNote_Tuscany Maremma
-https://nyhoustl.netlify.com/About Us.html
+https://nyhoustl.netlify.app/
+https://nyhoustl.netlify.app/gallery_list1
+https://nyhoustl.netlify.app/Gallery_Alsace
+https://nyhoustl.netlify.app/Gallery_Andalucia
+https://nyhoustl.netlify.app/Gallery_Arizona
+https://nyhoustl.netlify.app/Gallery_Aveyron
+https://nyhoustl.netlify.app/Gallery_Barcelona
+https://nyhoustl.netlify.app/Gallery_Basque
+https://nyhoustl.netlify.app/Gallery_Bordeaux
+https://nyhoustl.netlify.app/Gallery_California
+https://nyhoustl.netlify.app/Gallery_Civita and Orvieto
+https://nyhoustl.netlify.app/Gallery_Croatia 1
+https://nyhoustl.netlify.app/Gallery_Croatia 2
+https://nyhoustl.netlify.app/Gallery_Czech
+https://nyhoustl.netlify.app/Gallery_Easter Island 1
+https://nyhoustl.netlify.app/Gallery_Easter Island 2
+https://nyhoustl.netlify.app/Gallery_El Chalten
+https://nyhoustl.netlify.app/Gallery_Fes
+https://nyhoustl.netlify.app/Gallery_Florence and Siena
+https://nyhoustl.netlify.app/Gallery_Greece
+https://nyhoustl.netlify.app/Gallery_Havana
+https://nyhoustl.netlify.app/Gallery_Hawaii
+https://nyhoustl.netlify.app/Gallery_Ireland
+https://nyhoustl.netlify.app/Gallery_Maremma
+https://nyhoustl.netlify.app/Gallery_Marrakech
+https://nyhoustl.netlify.app/Gallery_Minnesota
+https://nyhoustl.netlify.app/Gallery_Montenegro
+https://nyhoustl.netlify.app/Gallery_Normandie
+https://nyhoustl.netlify.app/Gallery_Morocco Other
+https://nyhoustl.netlify.app/Gallery_Norway
+https://nyhoustl.netlify.app/Gallery_Oregon and Washington
+https://nyhoustl.netlify.app/Gallery_Perito Moreno Glacier
+https://nyhoustl.netlify.app/Gallery_Portugal
+https://nyhoustl.netlify.app/Gallery_Provence
+https://nyhoustl.netlify.app/Gallery_Puerto Vallarta
+https://nyhoustl.netlify.app/Gallery_Rhone
+https://nyhoustl.netlify.app/Gallery_Rome
+https://nyhoustl.netlify.app/Gallery_San Miguel de Allende
+https://nyhoustl.netlify.app/Gallery_Scotland
+https://nyhoustl.netlify.app/Gallery_Thailand
+https://nyhoustl.netlify.app/Gallery_Trinidad
+https://nyhoustl.netlify.app/Gallery_Val d'Orcha 1
+https://nyhoustl.netlify.app/Gallery_Val d'Orcha 2
+https://nyhoustl.netlify.app/TripNote_List
+https://nyhoustl.netlify.app/TripNote_Civita and Orvieto
+https://nyhoustl.netlify.app/TripNote_Cuba
+https://nyhoustl.netlify.app/TripNote_Easter Island
+https://nyhoustl.netlify.app/TripNote_Morocco
+https://nyhoustl.netlify.app/TripNote_Patagonia
+https://nyhoustl.netlify.app/TripNote_Tuscany Val d'Orcha
+https://nyhoustl.netlify.app/TripNote_Tuscany Maremma
+https://nyhoustl.netlify.app/About Us.html
