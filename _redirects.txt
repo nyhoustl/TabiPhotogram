@@ -1,0 +1,2 @@
+https://nyhoustl.netlify.app https://nyhoustl.com 301!
+http://nyhoustl.netlify.app  https://nyhoustl.com 301!
