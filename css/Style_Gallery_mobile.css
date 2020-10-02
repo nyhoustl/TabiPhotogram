@@ -353,7 +353,7 @@ article.trip_note p {
   margin-bottom: 10px;
 }
 div.trip_note.header {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   padding-left: 10px;
   margin-top: 10px;
@@ -362,7 +362,7 @@ div.trip_note.header {
   background-color: #f1efef;
 }
 div.trip_note.header2 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   padding-left: 10px;
   margin-top: 5px
