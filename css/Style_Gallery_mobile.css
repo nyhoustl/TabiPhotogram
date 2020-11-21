@@ -87,7 +87,7 @@ article#page_description.trip_note {
   margin-top: 18px;
   margin-bottom: 10px;
   text-align: center;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: bold;
 }
 
@@ -362,10 +362,10 @@ div.trip_note.header {
   background-color: #f1efef;
 }
 div.trip_note.header2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   padding-left: 10px;
-  margin-top: 5px
+  margin-top: 5px;
 }
 
 table.trip_note {
