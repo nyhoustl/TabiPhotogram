@@ -400,8 +400,16 @@ img.trip_note.right {
     width: 300px;
     height: 400px;
   }
+  img.trip_note.portrait_long {
+    width: 300px;
+    height: 450px;
+  }
   img.trip_note.landscape {
     width: 400px;
+    height: 300px;
+  }
+  img.trip_note.landscape_long {
+    width: 450px;
     height: 300px;
   }
   img.trip_note.square {
@@ -417,6 +425,11 @@ ul.trip_note.itinerary {
 a.gallery_link {
   text-decoration: none;
 }
+
+a.gallery_link:visited {
+    color: red;
+}
+
 footer {
   width: 100%;
   height: 3%;
