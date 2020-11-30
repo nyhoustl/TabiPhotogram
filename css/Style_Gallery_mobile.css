@@ -14,7 +14,7 @@ body {
 
 header {
   width: 100%;
-  height: 40px;
+  height: 44px;
   background-color: #ddd8d8;
   position: fixed;
   top: 0;
@@ -31,7 +31,7 @@ nav {
 }
 
 nav.menu{
-  padding: 0px
+  padding: 0px;
 }
 
 nav ul {
@@ -53,6 +53,18 @@ nav ul li a {
   font-size: 12px;
 }
 
+@media screen and (min-width: 600px) and (max-width: 899px) {
+nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+    nav ul li a {
+        font-size: 20px;
+      }
+    }
+
 nav ul li a:hover {
   color: #444444;
 }
@@ -63,6 +75,17 @@ nav li#logo a {
   color: #666666;
   display: inline-block;
 }
+@media screen and (min-width: 600px) and (max-width: 899px){
+    nav li#logo a {
+        font-size: 18px;
+      }
+    }
+
+@media screen and (min-width: 900px) {
+    nav li#logo a {
+        font-size: 22px;
+        }
+    }    
 
 nav li#logo a:hover {
   color: #333333;
@@ -194,6 +217,7 @@ figcaption.gallery_list {
   font-size: 1.2em;
   font-style: italic;
   text-align: center;
+  text-overflow: ellipsis;
 }
 
 div#photo_gallery {
